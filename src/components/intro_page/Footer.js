@@ -9,7 +9,15 @@ function Footer() {
 
             <footer>
 
-                <p>A paltform to find your future partner as a developer!</p>
+                
+
+                <p>You can find your right partner with these technologies!</p>
+
+                <span><i class="fab fa-react"></i></span>
+                <span><i class="fab fa-angular"></i></span>
+                <span><i class="fab fa-vuejs"></i></span>
+                <span><i class="fab fa-node-js"></i></span>
+                <span><i class="fab fa-python"></i></span>
 
 
                 

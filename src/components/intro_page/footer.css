@@ -1,5 +1,6 @@
 
 
+
 :root {
 
         --nav-background : #000000;
@@ -8,17 +9,26 @@
     }
 
 
+   
+footer {
 
-.intro__footer {
-
-       
+        margin-top: auto;
         background-color: var(--nav-background);
         color: var(--nav-color);
         padding: 1rem;
+        
 }
 
 p {
       text-align: center;
       font-size: 1rem;
+      margin-bottom: 1rem;
       
 }
+
+
+span i {
+      
+       font-size: 2rem;
+}
+
