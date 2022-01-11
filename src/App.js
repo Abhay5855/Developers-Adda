@@ -1,5 +1,6 @@
 
 import './App.css';
+import IntroPage from './components/intro_page/IntroPage';
 
 import Navbar from './components/intro_page/Navbar';
 
@@ -10,7 +11,10 @@ function App() {
 
       {/* Authentication/ Intro Page */}
 
-      <Navbar />
+      <IntroPage />
+
+
+      
 
     
      

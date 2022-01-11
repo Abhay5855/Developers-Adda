@@ -1,0 +1,73 @@
+
+:root {
+
+    --nav-background : #000000;
+    --nav-color : #fff;
+      
+     
+}
+
+
+h1, h2 , h3 , h4 {
+    margin: 0;
+}
+
+
+img {
+    width: 100%;
+}
+
+
+@media (min-width : 550px){
+
+
+
+    article {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .content__container {
+
+          margin: 5rem 1rem;
+    }
+
+  
+
+   .text {
+       order : 2;
+   }
+
+ 
+    
+
+  .content__section img {
+
+    border-left :1px solid var(--nav-background);
+    border-top: 1px solid var(--nav-background);
+    border-radius: 25px;
+    padding: 1rem;
+         
+     
+  }
+
+
+  .content__desc {
+
+
+      color: var(--nav-color);
+      background-color: var(--nav-background);
+      padding: 1rem;
+      border-radius: 10px;
+       
+  }
+
+  h3 {
+       font-size: 1.5rem;
+       font-weight: 700;
+       margin-bottom: 0.5rem;
+  }
+
+    
+}
