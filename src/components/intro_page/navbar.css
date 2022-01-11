@@ -1,0 +1,115 @@
+
+
+/* Global */
+
+:root {
+
+    --nav-background : #000000;
+    --nav-color : #fff;
+      
+     
+}
+
+
+h1, h2 , h3 , h4 {
+    margin: 0;
+}
+
+/* Navbar */
+
+nav {
+     /* margin: 1.5rem; */
+     background-color: var(--nav-background);
+     padding: 0.5rem;
+
+}
+
+nav ul li{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    margin: 1rem;
+    flex-wrap: wrap;
+    cursor: pointer;
+    position: absolute;
+    
+     
+}
+
+nav h3 {
+    color : var(--nav-color);
+    
+
+}
+
+nav p {
+
+       color : var(--nav-color);
+       font-size: 0.8rem;
+
+}
+
+
+span i {
+    /* background-color: var(--nav-color); */
+    color: var(--nav-color);
+    display: inline-block;
+    position: relative;
+}
+
+
+.nav__corner {
+
+      position: relative;
+      left: 600px;
+      text-align: right;
+      
+}
+
+
+@media (min-width : 550px){
+
+
+  
+   
+   nav ul li{
+   
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       display: inline-block;
+       margin: 0.8rem;
+       flex-wrap: wrap;
+       cursor: pointer;
+       position: absolute;
+       
+        
+   }
+   
+  
+   
+   nav p {
+   
+          color : var(--nav-color);
+          font-size: 0.8rem;
+          
+   
+   }
+   
+   
+   
+   
+   .nav__corner {
+   
+         position: relative;
+         left: 400px;
+         text-align: right;
+         
+   }
+
+    
+       
+
+}
