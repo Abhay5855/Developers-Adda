@@ -5,6 +5,11 @@
 
         --nav-background : #000000;
         --nav-color : #fff;      
+        --react : #61DBFB;
+        --angular:#B52E31;
+        --vue : #41B883;
+        --javascript : #F0DB4F;
+        --python : #4B8BBE;
          
     }
 
@@ -17,18 +22,80 @@ footer {
         color: var(--nav-color);
         padding: 1rem;
         
+        
 }
+
+
+
 
 p {
       text-align: center;
       font-size: 1rem;
-      margin-bottom: 1rem;
+      margin-bottom: 0.5rem;
       
 }
 
+.footer__icons  {
 
-span i {
-      
+    display: flex;
+    justify-content:center;
+    /* padding: 1rem; */
+    
+    
+    
+
+}
+
+
+  
+  .footer__icons ul{
+    /* justify-content:center; */
+    text-align:center;
+  }
+  
+  .footer__icons ul li{
+    display:inline-block;
+    margin: 0.6rem;
+   }
+
+
+
+   i {
+
        font-size: 2rem;
+   }
+
+
+
+.fa-react {
+      
+       color: var(--react);
+       /* padding-right: 0.5rem; */
 }
+
+.fa-angular {
+    color: var(--angular);
+    /* padding-right: 0.5rem; */
+}
+
+.fa-vuejs {
+
+    color: var(--vue);
+    /* padding-right: 0.5rem; */
+
+}
+
+.fa-node-js {
+
+      color: var(--javascript);
+      /* padding-right: 0.5rem; */
+}
+
+.fa-python {
+    color: var(--python);
+    /* padding-right: 0.5rem; */
+}
+
+
+
 

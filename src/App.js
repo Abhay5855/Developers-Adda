@@ -3,6 +3,7 @@ import './App.css';
 import IntroPage from './components/intro_page/IntroPage';
 
 import Navbar from './components/intro_page/Navbar';
+import MainRoutes from './routes/MainRoutes';
 
 function App() {
   return (
@@ -11,7 +12,10 @@ function App() {
 
       {/* Authentication/ Intro Page */}
 
-      <IntroPage />
+      {/* <IntroPage /> */}
+
+
+      <MainRoutes />
 
 
       

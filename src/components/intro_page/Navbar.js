@@ -7,12 +7,7 @@ function Navbar() {
     <div>
       <nav>
         <ul>
-           <li><h3>Developers_Adda</h3>
-
-           {/* <span><i class="fab fa-adn"></i></span> */}
-
-  
-           
+           <li><h3>Developers_Adda</h3>        
            </li>
           <li className="nav__corner">
             <p>Signup</p>
