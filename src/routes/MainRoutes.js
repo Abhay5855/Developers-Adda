@@ -2,6 +2,7 @@
 
 
 import IntroPage from '../components/intro_page/IntroPage'
+import SearchPage from '../components/intro_page/search_page/SearchPage';
 
 
 
@@ -20,6 +21,7 @@ const MainRoutes = () => {
 
         <Router>
             <Route exact path = '/' component={IntroPage} />
+            <Route exact path = '/search' component={SearchPage} />
         </Router>
 
         </>
